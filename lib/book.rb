@@ -1,12 +1,12 @@
 class Book
-  def initialize(name)
-    @name=name
+  def initialize(title)
+    @title=title
   end
-  def name=(name)
-    @name=name
+  def title=(title)
+    @title=title
   end
-  def name 
-    @name= name
+  def title 
+    @title
   end
   
   
